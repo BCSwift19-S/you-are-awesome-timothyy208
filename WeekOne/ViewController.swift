@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func showButtonPressed(_ sender: UIButton) {
-        print("🍆Button was pressed")
+        print("🍆Button was pressed🍆")
     }
     
 }
