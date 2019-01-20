@@ -22,7 +22,12 @@ class ViewController: UIViewController {
     
     @IBAction func showButtonPressed(_ sender: UIButton) {
         messageLabel.text = "You are Awesome!"
+        messageLabel.textColor = UIColor.purple
     }
     
+    @IBAction func showAnotherMessagePressed(_ sender: Any) {
+        messageLabel.text = "You are Great!"
+        messageLabel.textColor = UIColor.blue
+    }
 }
 
